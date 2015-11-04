@@ -40,22 +40,27 @@ $data = $dbcon->query($sql);
 <center>
 <table border="1" style="width: 70%; min-height: 150px; font-size: larger; text-align: center;">
     <tr>
+        <th>ID</th>
         <th>Name</th>
         <th>Age</th>
         <th>Address</th>
         <th>Designation</th>
         <th>Salary</th>
+        <th>Action</th>
 
     </tr>
     <?php
     while ($row = $data->fetch(PDO::FETCH_ASSOC)) {
+        print_r($row);
     ?>
     <tr>
+        <td><?php echo $row['id']?></td>
         <td><?php echo $row['name']?></td>
         <td><?php echo $row['age']?></td>
         <td><?php echo $row['address']?></td>
         <td><?php echo $row['designation']?></td>
         <td><?php echo $row['salary']?></td>
+        <td><a href="update.php" style="text-decoration: none">Edit</a></td>
     </tr>
     <?php } ?>
 

@@ -21,8 +21,8 @@ $row = $data->fetch(PDO::FETCH_ASSOC);
 //print_r($row);
 ?>
 <html>
-<form action="" method="post">
-
+<form action="update_controller.php" method="post">
+    <input name="id" value="<?php echo $row['id']?>">
     <input type="text" placeholder="Name" name="name" value="<?php echo $row['name']?>">
     <input type="text" placeholder="Age" name="age" value="<?php echo $row['age']?>">
     <input type="text" placeholder="Address" name="address" value="<?php echo $row['address']?>">

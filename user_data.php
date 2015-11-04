@@ -51,7 +51,7 @@ $data = $dbcon->query($sql);
     </tr>
     <?php
     while ($row = $data->fetch(PDO::FETCH_ASSOC)) {
-        print_r($row);
+       // print_r($row);
     ?>
     <tr>
         <td><?php echo $row['id']?></td>
@@ -60,7 +60,7 @@ $data = $dbcon->query($sql);
         <td><?php echo $row['address']?></td>
         <td><?php echo $row['designation']?></td>
         <td><?php echo $row['salary']?></td>
-        <td><a href="update.php" style="text-decoration: none">Edit</a></td>
+        <td><a href="update.php?id=<?php echo $row['id']?>" style="text-decoration: none">Edit</a></td>
     </tr>
     <?php } ?>
 

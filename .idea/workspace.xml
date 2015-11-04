@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="434522f4-a49b-497e-8231-b55ffbda9dca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update.php" afterPath="$PROJECT_DIR$/update.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_data.php" afterPath="$PROJECT_DIR$/user_data.php" />
     </list>
     <ignored path="CT.iws" />
@@ -25,26 +25,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user_data.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user_data.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user_data.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79310346">
-              <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+            <state vertical-scroll-proportion="-5.03125">
+              <caret line="52" column="48" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="48" />
               <folding>
-                <element signature="e#1542#1571#0#HTML" expanded="true" />
-                <marker date="1446607390190" expanded="true" signature="581:624" placeholder="SELECT * FRO..employee..." />
+                <element signature="e#1571#1600#0#HTML" expanded="true" />
+                <marker date="1446609048682" expanded="true" signature="581:624" placeholder="SELECT * FRO..employee..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="update.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/update.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.75">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.54679805">
+              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
+                <marker date="1446611305434" expanded="true" signature="343:380" placeholder="SELECT * FRO..employee..." />
               </folding>
             </state>
           </provider>
@@ -53,8 +54,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="20.5">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.40625">
+              <caret line="43" column="11" selection-start-line="33" selection-start-column="4" selection-end-line="43" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -68,8 +69,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/update.php" />
         <option value="$PROJECT_DIR$/user_data.php" />
+        <option value="$PROJECT_DIR$/update.php" />
       </list>
     </option>
   </component>
@@ -233,14 +234,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exam_page1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.39737275">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -261,31 +254,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/exam_page1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.03125">
+          <caret line="52" column="48" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="48" />
+          <folding>
+            <element signature="e#1571#1600#0#HTML" expanded="true" />
+            <marker date="1446609048682" expanded="true" signature="581:624" placeholder="SELECT * FRO..employee..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="20.5">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.40625">
+          <caret line="43" column="11" selection-start-line="33" selection-start-column="4" selection-end-line="43" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/update.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.75">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.54679805">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79310346">
-          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-          <folding>
-            <element signature="e#1542#1571#0#HTML" expanded="true" />
-            <marker date="1446607390190" expanded="true" signature="581:624" placeholder="SELECT * FRO..employee..." />
+            <marker date="1446611305434" expanded="true" signature="343:380" placeholder="SELECT * FRO..employee..." />
           </folding>
         </state>
       </provider>

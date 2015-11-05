@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Nov 01, 2015 at 10:50 AM
+-- Generation Time: Nov 05, 2015 at 03:18 PM
 -- Server version: 5.5.46-0ubuntu0.14.04.2
 -- PHP Version: 5.5.9-1ubuntu4.14
 
@@ -89,7 +89,7 @@ CREATE TABLE IF NOT EXISTS `employee` (
   `email` varchar(30) NOT NULL,
   `password` varchar(30) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
 
 --
 -- Dumping data for table `employee`
@@ -100,7 +100,30 @@ INSERT INTO `employee` (`id`, `name`, `age`, `address`, `designation`, `salary`,
 (2, 'rubel', '24', 'gazipur', 'enginear', 22000, 'rubedk@gmail.com', '5645645'),
 (3, 'rofiq', '26', 'dhaka', 'doctor', 24000, 'rafiq@gmail.com', '12345'),
 (4, 'rana', '26', 'kaligong', 'farmer', 26000, 'rana@gmail.com', '123456'),
-(5, 'Rajesh', '26', 'Dhaka dhaka', 'Mentor', 2500, 'admin@gmail.com', '1234');
+(5, 'Rajesh', '26', 'Dhaka dhaka', 'Mentor', 2500, 'admin@gmail.com', '1234'),
+(6, 'Rajes', '45', 'dsaf', 'daf', 545646, 'a@gmail.com', '123');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `site_data`
+--
+
+CREATE TABLE IF NOT EXISTS `site_data` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `menu_name` varchar(30) NOT NULL,
+  `editor1` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+
+--
+-- Dumping data for table `site_data`
+--
+
+INSERT INTO `site_data` (`id`, `menu_name`, `editor1`) VALUES
+(2, 'Description', '<p>This is the Description of our site...</p>\r\n'),
+(3, 'Company', '<p>This is our Compnay Profile: Name is <strong>TechHouse</strong></p>\r\n'),
+(4, 'About', '<p>Hi, we are <em><strong>CodersTrust&nbsp;</strong></em>Hello everyone</p>\r\n');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
